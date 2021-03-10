@@ -9,6 +9,7 @@ In this project a startup company called Sparkify is growing and its database ne
 
 ## Schema 
 ![image](https://user-images.githubusercontent.com/72575271/110711316-576d6d00-81cd-11eb-82c8-fae78e5d6cfc.png)
+
 There is one fact table(songplays) and four dimension tables(songs,users,artists and time)
 
 ## Steps to achieve result
