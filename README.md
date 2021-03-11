@@ -13,11 +13,12 @@ In this project a startup company called Sparkify is growing and its database ne
 There is one fact table(songplays) and four dimension tables(songs,users,artists and time)
 
 ## Steps to implement a database on Redshift
-1. Write out the CREATE/DROP SQL statements for each table in sql_queries.py
-2. Create a Redshift cluster and an IAM role  
-3. Input the necessary information(Host,DB name,DB User,DB Password,DB Port) in the dwh.cfg file which will allow us to input the variables into the create_tables.py so that we can connect to the postgres database
-4.The Copy logic must be written out so the S3 data is moved into a staging table on Redshift.
-5.Insert Queries must be written for each of the tables(must perform the necessary joins and transformation to some columns as needed to get the data in the right format)
-6.Run the etl.py and create_tables.py
-7.Try to query data and see if you get the expected results
-8. Delete the redshift cluster if queries return as expected
+1.	Write out the CREATE/DROP SQL statements for each table in sql_queries.py
+2.	Create a Redshift cluster and an IAM role  
+3.	Input the necessary information(Host,DB name,DB User,DB Password,DB Port) in the dwh.cfg file which will allow us to input the variables into the create_tables.py so that we can connect to the postgres database
+4.	The Copy logic must be written out so the S3 data is moved into a staging table on Redshift.
+5.	Insert Queries must be written for each of the tables(must perform the necessary joins and transformation to some columns as needed to get the data in the right format)
+6.	Run the etl.py and create_tables.py
+7.	Try to query data and see if you get the expected results
+8.	Delete the redshift cluster if queries return as expected
+
