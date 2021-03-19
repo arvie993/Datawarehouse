@@ -12,6 +12,13 @@ In this project a startup company called Sparkify is growing and its database ne
 
 There is one fact table(songplays) and four dimension tables(songs,users,artists and time)
 
+
+## Project Files
+1. create_tables.py - This script will create new tables and drop old tables when executed
+2. etl.py - This script contains the logic that will load the staging tables and insert it into the tables created by the create_tables.py file.
+3. dwh.cfg - Contains the redshift cluster information such as Host,DB name,DB User,DB Password,DB Port which is referenced by the etl.py file to connect to the redshift cluster
+4. sql_queries.py - File that contains all the create, insert, delete SQL statements
+
 ## Steps to implement a database on Redshift
 1.	Write out the CREATE/DROP SQL statements for each table in sql_queries.py
 2.	Create a Redshift cluster and an IAM role  
