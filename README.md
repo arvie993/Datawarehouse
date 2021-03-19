@@ -5,7 +5,12 @@
 # Data Warehouse
 
 ## Introduction
-In this project a startup company called Sparkify is growing and its database needs are met only by moving to the cloud. The data engineering team is tasked with building an ETL pipeline that extracts information from JSON logs in S3 and JSON metadata from their app and have it persisted to a PostgresSQL DB which is hosted on AWS Redshift.
+In this project a startup company called Sparkify is growing and its database needs are met only by moving to the cloud. The data engineering team is tasked with building an ETL pipeline that extracts information from JSON logs in S3 buckets and JSON metadata from their app and have it persisted to a PostgresSQL DB which is hosted on AWS Redshift.
+
+## Datasets
+Data is stored in public S3 buckets
+Songs - Data is in a json format that contains information about the songs and artists
+Events - Data is in a json format that contains information on user activity
 
 ## Schema 
 ![image](https://user-images.githubusercontent.com/72575271/110711316-576d6d00-81cd-11eb-82c8-fae78e5d6cfc.png)
